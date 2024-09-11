@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vakıfbank</title>
+    <style>
+      body {
+        color: blueviolet;
+      }
+      ul {
+        color: blue;
+      }
+      li {
+        color: brown;
+      }
+      /* a body kapsayicisinda oldugundan inherit yaptigimizda 
+      bodynin colorini alir */
+      a {
+        color: lightcoral;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+      eligendi pariatur dolores, consectetur placeat laboriosam, totam
+      voluptatum exercitationem quibusdam velit facilis earum cumque commodi. Ea
+      nemo nesciunt quibusdam aliquam dolorem.
+    </p>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+      eligendi pariatur dolores, consectetur placeat laboriosam, totam
+      voluptatum exercitationem quibusdam velit facilis earum cumque commodi. Ea
+      nemo nesciunt quibusdam aliquam dolorem.
+    </p>
+    <a href="#">Link 1</a>
+    <a style="color: inherit" href="#">Link 2</a>
+    <ul>
+      <!-- li nin kapsayicisi ul oldugu için li özelinde renk 
+        tanimlasarsak onu alir, fakat li nin rengini almasini 
+        istiyorsak inheriri kullaniriz -->
+      <li style="color: inherit">Madde 1</li>
+      <li>Madde 2</li>
+      <li>Madde 3</li>
+      <li>Madde 4</li>
+      <li>Madde 5</li>
+    </ul>
+  </body>
+</html>
